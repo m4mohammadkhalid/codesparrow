@@ -14,8 +14,24 @@ middle ware always upar hoga sabse
 
 index.use(express.urlencoded({extended:true}));
 
-for validation
-https://express-validator.github.io/docs/
+4 for validation
+  https://express-validator.github.io/docs/
 
+  send msg 
 
+      <% if(errors.length > 0) {%>
+      <%errors.forEach(error=>{%>
+        <%=error.msg%>
+      <%})%>
+      <%}%>
 
+  value=<%if(inputs){%><%=inputs.name%><%}%>
+
+  end validation
+
+5 Mongoose
+
+        https://mongoosejs.com/docs/guide.html
+        
+        1 first Schemas
+        2 Model
