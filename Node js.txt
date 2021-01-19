@@ -32,6 +32,25 @@ index.use(express.urlencoded({extended:true}));
 5 Mongoose
 
         https://mongoosejs.com/docs/guide.html
-        
+
+        connection alwayse use finction async await with function
         1 first Schemas
         2 Model
+
+6 Registration
+
+        1 create models folder
+        2 db.js just for connection for try and catch with function
+        3 know db file app.js const connect =require(./models/db);
+        4 connect()
+	6 install dotenv dependency
+	7 require('dotenv').config();
+	8 know create userregistration.js------ table use
+	8.1 mongoose require
+	8.2 mongoose.schema
+	8.3 model
+	8.4 then app.js require userregistration.js
+	
+	app.js
+	1.1 inputs data store ke niche else part me
+	1.2 
